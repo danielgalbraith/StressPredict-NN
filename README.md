@@ -4,7 +4,7 @@ Multi-class softmax classification with uni-directional neural network for predi
 * **Input features**: word index within sentence chunk, lexical stress {yes, no, ambiguous}, number of segments in word, number of syllables in word, number of stresses, part of speech, dependency parse, frequency of word in document, informativity score of word in document, frequency of word in corpus, informativity score in corpus, (stress-relevant) word category.
 * **Output**: 7 possible annotations {0,1,...,6}, representing relative stress prominence.
 
-Training data not uploaded; consult Anntila et al. (2017) for further information on the annotation procedure.
+Training data not uploaded; consult Anttila et al. (2017) for further information on the annotation procedure.
 
 Based on the following research:
 

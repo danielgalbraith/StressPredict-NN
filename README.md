@@ -1,5 +1,5 @@
 # StressPredict-NN
-Multi-class softmax classification with uni-directional neural network for predicting sentence stress annotation. Trained on data from US Presidential Inaugural Addresses with gold-standard human annotations. Uses Keras Sequential model with Python 3.
+Multi-class softmax classification with uni-directional neural network for predicting sentence stress annotation. Trained on data from US Presidential Inaugural Addresses with gold-standard human annotations. Uses Keras Sequential model in Python 3.
 
 * **Input features**: word index within sentence chunk, lexical stress {yes, no, ambiguous}, number of segments in word, number of syllables in word, number of stresses, part of speech, dependency parse, frequency of word in document, informativity score of word in document, frequency of word in corpus, informativity score in corpus, (stress-relevant) word category.
 * **Output**: 7 possible annotations {0,1,...,6}, representing relative stress prominence.
